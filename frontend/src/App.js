@@ -162,7 +162,7 @@ const HeroSection = () => {
             fontWeight: '400',
             lineHeight: '1.6'
           }}>
-            The Intelligence Core Behind Harmony's Clinical Automation
+            The Intelligence Core Behind HRMNY's Clinical Automation
           </p>
           
           <p style={{ 
