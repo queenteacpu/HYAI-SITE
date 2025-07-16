@@ -3,7 +3,7 @@ import React from "react";
 const HeroSection = () => {
   return (
     <div style={{
-      background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
+      background: 'linear-gradient(135deg, #007C91 0%, #005f73 100%)',
       color: 'white',
       padding: '6rem 2rem',
       textAlign: 'center',
@@ -19,7 +19,7 @@ const HeroSection = () => {
           marginBottom: '1.5rem',
           lineHeight: '1.2'
         }}>
-          HighAI: Build
+          HyAI: Build
         </h1>
         <p style={{ 
           fontSize: '1.5rem', 
@@ -37,13 +37,13 @@ const HeroSection = () => {
           maxWidth: '600px',
           margin: '0 auto 3rem'
         }}>
-          HighAI: Build enables ethical, modular automation across clinical workflows. 
+          HyAI: Build enables ethical, modular automation across clinical workflows. 
           Designed for compliance-first environments, it empowers clinicians to move faster—with trust, transparency, and total control.
         </p>
         <div style={{ display: 'flex', gap: '1rem', justifyContent: 'center', flexWrap: 'wrap' }}>
           <button style={{
-            background: 'white',
-            color: '#667eea',
+            background: '#FF7A00',
+            color: 'white',
             border: 'none',
             padding: '1rem 2rem',
             borderRadius: '8px',
@@ -77,32 +77,33 @@ const AboutSection = () => {
   return (
     <div style={{ 
       padding: '6rem 2rem',
-      backgroundColor: '#f8f9fa',
+      backgroundColor: '#E8F0F1',
       textAlign: 'center'
     }}>
       <div style={{ maxWidth: '1200px', margin: '0 auto' }}>
         <h2 style={{ 
           fontSize: '2.5rem', 
-          color: '#2c3e50',
+          color: '#1E1E1E',
           marginBottom: '2rem'
         }}>
-          About HighAI
+          About HyAI
         </h2>
         <p style={{ 
           fontSize: '1.2rem', 
-          color: '#5a6c7d',
+          color: '#1E1E1E',
           maxWidth: '800px',
           margin: '0 auto 2rem',
           lineHeight: '1.6'
         }}>
-          HighAI is Harmony's core AI framework. It blends structured logic, natural language processing, 
+          HyAI is Harmony's core AI framework. It blends structured logic, natural language processing, 
           and real-time data handling to support mental health and capacity assessments, including DoLS, 
           Care Act, and S49 processes.
         </p>
         <p style={{ 
           fontSize: '1.1rem', 
-          color: '#7f8c8d',
-          fontStyle: 'italic'
+          color: '#007C91',
+          fontStyle: 'italic',
+          fontWeight: '600'
         }}>
           Built in collaboration with doctors, assessors, QA leads, and data scientists.
         </p>
@@ -134,12 +135,12 @@ const FeaturesSection = () => {
   return (
     <div style={{ 
       padding: '6rem 2rem',
-      backgroundColor: 'white'
+      backgroundColor: '#FFFFFF'
     }}>
       <div style={{ maxWidth: '1200px', margin: '0 auto' }}>
         <h2 style={{ 
           fontSize: '2.5rem', 
-          color: '#2c3e50',
+          color: '#1E1E1E',
           marginBottom: '3rem',
           textAlign: 'center'
         }}>
@@ -152,20 +153,22 @@ const FeaturesSection = () => {
         }}>
           {features.map((feature, index) => (
             <div key={index} style={{
-              background: '#f8f9fa',
+              background: '#E8F0F1',
               padding: '2rem',
               borderRadius: '12px',
-              boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1)'
+              boxShadow: '0 4px 6px rgba(0, 124, 145, 0.1)',
+              border: '1px solid rgba(0, 124, 145, 0.1)'
             }}>
               <h3 style={{ 
                 fontSize: '1.3rem', 
-                color: '#2c3e50',
-                marginBottom: '1rem'
+                color: '#007C91',
+                marginBottom: '1rem',
+                fontWeight: '600'
               }}>
                 {feature.title}
               </h3>
               <p style={{ 
-                color: '#5a6c7d',
+                color: '#1E1E1E',
                 lineHeight: '1.6'
               }}>
                 {feature.description}
@@ -190,7 +193,7 @@ const ScaleSection = () => {
   return (
     <div style={{ 
       padding: '6rem 2rem',
-      backgroundColor: '#2c3e50',
+      backgroundColor: '#007C91',
       color: 'white'
     }}>
       <div style={{ maxWidth: '1200px', margin: '0 auto' }}>
@@ -213,7 +216,7 @@ const ScaleSection = () => {
               gap: '1rem'
             }}>
               <div style={{
-                background: '#667eea',
+                background: '#FF7A00',
                 width: '8px',
                 height: '8px',
                 borderRadius: '50%',
@@ -245,13 +248,13 @@ const StatsSection = () => {
   return (
     <div style={{ 
       padding: '6rem 2rem',
-      backgroundColor: '#ecf0f1',
+      backgroundColor: '#E8F0F1',
       textAlign: 'center'
     }}>
       <div style={{ maxWidth: '1200px', margin: '0 auto' }}>
         <h2 style={{ 
           fontSize: '2.5rem', 
-          color: '#2c3e50',
+          color: '#1E1E1E',
           marginBottom: '3rem'
         }}>
           Why Now
@@ -263,21 +266,22 @@ const StatsSection = () => {
         }}>
           {stats.map((stat, index) => (
             <div key={index} style={{
-              background: 'white',
+              background: '#FFFFFF',
               padding: '2rem',
               borderRadius: '12px',
-              boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1)'
+              boxShadow: '0 4px 6px rgba(0, 124, 145, 0.1)',
+              border: '1px solid rgba(0, 124, 145, 0.1)'
             }}>
               <div style={{ 
                 fontSize: '3rem', 
-                color: '#e74c3c',
+                color: '#FF7A00',
                 fontWeight: '700',
                 marginBottom: '0.5rem'
               }}>
                 {stat.number}
               </div>
               <p style={{ 
-                color: '#5a6c7d',
+                color: '#1E1E1E',
                 fontSize: '1.1rem',
                 margin: 0
               }}>
@@ -294,7 +298,7 @@ const StatsSection = () => {
 const CTASection = () => {
   return (
     <div style={{
-      background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
+      background: 'linear-gradient(135deg, #007C91 0%, #005f73 100%)',
       color: 'white',
       padding: '6rem 2rem',
       textAlign: 'center'
@@ -312,13 +316,13 @@ const CTASection = () => {
           opacity: '0.9',
           lineHeight: '1.6'
         }}>
-          HighAI: Build is currently being piloted with a closed group of NHS and LA partners.
+          HyAI: Build is currently being piloted with a closed group of NHS and LA partners.
           <br />
           Interested in testing the SDK or integrating a lightweight module?
         </p>
         <button style={{
-          background: 'white',
-          color: '#667eea',
+          background: '#FF7A00',
+          color: 'white',
           border: 'none',
           padding: '1.2rem 2.5rem',
           borderRadius: '8px',
@@ -337,7 +341,7 @@ const CTASection = () => {
 const Footer = () => {
   return (
     <div style={{ 
-      backgroundColor: '#2c3e50',
+      backgroundColor: '#1E1E1E',
       color: 'white',
       padding: '3rem 2rem',
       textAlign: 'center'
