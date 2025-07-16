@@ -260,7 +260,7 @@ const AboutSection = () => {
             lineHeight: '1.8',
             fontWeight: '400'
           }}>
-            HyAI is Harmony's core AI framework. It blends structured logic, natural language processing, 
+            HyAI is HRMNY's core AI framework. It blends structured logic, natural language processing, 
             and real-time data handling to support mental health and capacity assessments.
           </p>
           
