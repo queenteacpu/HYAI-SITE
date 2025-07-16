@@ -614,7 +614,7 @@ const Footer = () => {
           margin: 0,
           letterSpacing: '0.5px'
         }}>
-          Built by Harmony Nexus. Powered by trust, shaped by care.
+          Built by HRMNY Nexus. Powered by trust, shaped by care.
         </p>
       </div>
     </div>
